@@ -1,0 +1,23 @@
+body {
+  background-color: #eaeaea;
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #999999;
+}
+
+.pink {
+  height: 50px;
+  background-color: #d4002f;
+}
+
+.row {
+  height: 30px;
+  border-bottom: 1px solid #d2d2d2;
+  background-color: #fff;
+}
+
+  /*  border-bottom: 1px solid rgba(0,0,0,0.05);
+*/
