@@ -1,19 +1,26 @@
+// sass --watch style.scss:style.css
+
 body {
   background-color: #eaeaea;
-  margin: 0px; }
+  margin: 0px;
+}
 
 header {
   width: 100%;
-  border-bottom: 1px solid #999999; }
+  border-bottom: 1px solid #999999;
+}
 
 .pink {
   height: 50px;
-  background-color: #d4002f; }
+  background-color: #d4002f;
+}
 
 .row {
   height: 30px;
   border-bottom: 1px solid #d2d2d2;
-  background-color: #fff; }
+  background-color: #fff;
+}
+
 
 .btn {
   display: inline-block;
@@ -21,30 +28,36 @@ header {
   color: #fff;
   border-radius: 10px;
   font-size: 14px;
-  font-family: 'Nunito', sans-serif; }
+  font-family: 'Nunito', sans-serif;
+}
 
 .html {
   background-color: #ff5900;
-  box-shadow: 1px 1px #b33e00; }
+  box-shadow: 1px 1px darken( #ff5900, 15% );
+}
 
 .css {
   background-color: #0071b7;
-  box-shadow: 1px 1px #00426b; }
+  box-shadow: 1px 1px darken( #0071b7, 15% );
+}
 
 .javascript {
   background-color: #73d300;
-  box-shadow: 1px 1px #498700; }
+  box-shadow: 1px 1px darken( #73d300, 15% );
+}
 
 .node {
   background-color: #6cc100;
-  box-shadow: 1px 1px #417500; }
+  box-shadow: 1px 1px darken( #6cc100, 15% );
+}
+
 
 .firebase {
   background-color: #ffc900;
-  box-shadow: 1px 1px #b38d00; }
+  box-shadow: 1px 1px darken( #ffc900, 15% );
+}
 
 .sass {
   background-color: #de5a9c;
-  box-shadow: 1px 1px #c42776; }
-
-/*# sourceMappingURL=style.css.map */
+  box-shadow: 1px 1px darken( #de5a9c, 15% );
+}
