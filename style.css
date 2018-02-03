@@ -51,4 +51,41 @@ header {
   background-color: #3379a5;
   box-shadow: 1px 1px #214e6b; }
 
+.express {
+  background-color: #393939;
+  box-shadow: 1px 1px #131313; }
+
+.handlebars {
+  background-color: #ff7d00;
+  box-shadow: 1px 1px #b35800; }
+
+.sequelize {
+  background-color: #00b1f6;
+  box-shadow: 1px 1px #007aaa; }
+
+.mongodb {
+  background-color: #309737;
+  box-shadow: 1px 1px #1e5d22; }
+
+.mongoose {
+  background-color: #87110f;
+  box-shadow: 1px 1px #420807; }
+
+.es6 {
+  background-color: #ffc700;
+  box-shadow: 1px 1px #b38b00;
+  color: #000; }
+
+.react {
+  background-color: #0fddff;
+  box-shadow: 1px 1px #00a6c2; }
+
+.jsx {
+  background-color: #336;
+  box-shadow: 1px 1px #1a1a33; }
+
+.java {
+  background-color: #fd001f;
+  box-shadow: 1px 1px #b10016; }
+
 /*# sourceMappingURL=style.css.map */
