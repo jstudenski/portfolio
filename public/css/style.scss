@@ -39,32 +39,53 @@ $logo-size: 100px;
 
 
 
-
-
 img {
   width: 100px;
   position: absolute;
 }
 
 .pink {
-  height: 50px;
-  background-color: #d4002f;
+  // height: 50px;
+  background-color:#fff; //  #d4002f;
 }
 
 .row {
-  height: 30px;
+  // height: 30px;
   border-bottom: 1px solid #d2d2d2;
-  background-color: #fff;
+  background-color: #868686;
 }
 
+.card {
+  background-color: salmon;
+  width: 200px;
+  height: 200px;
+  margin: 30px 0px 0px 30px;
+  float: left;
+
+  h2 {
+      font-family: 'Nunito', sans-serif;
+    background-color: #515151;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+  }
+}
 
 .btn {
   display: inline-block;
   padding: 4px 10px;
+  margin: 5px;
   color: #fff;
   border-radius: 10px;
   font-size: 14px;
   font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+}
+
+
+.github {
+  background-color: #393939;
+  box-shadow: 1px 1px darken( #393939, 15% );
 }
 
 .html {
