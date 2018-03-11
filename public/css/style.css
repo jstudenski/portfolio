@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'neutra';
-  src: url("fonts/neutra-bold.otf") format("opentype"); }
+  src: url("../fonts/neutra-bold.otf") format("opentype"); }
 body {
   background-color: #eaeaea;
   margin: 0px; }

@@ -1,9 +1,9 @@
-// sass --watch style.scss:style.css
+// sass --watch public/css/style.scss:public/css/style.css
 
 @font-face {
   font-family: 'neutra';
   src: 
-    url('fonts/neutra-bold.otf') 
+    url('../fonts/neutra-bold.otf') 
     format('opentype');
 }
 
