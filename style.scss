@@ -1,5 +1,17 @@
 // sass --watch style.scss:style.css
 
+@font-face {
+  font-family: 'neutra';
+  src: 
+    url('fonts/neutra-bold.otf') 
+    format('opentype');
+}
+
+h2 {
+  font-family: 'neutra', sans-serif;
+  font-size: 40px;
+}
+
 body {
   background-color: #eaeaea;
   margin: 0px;
