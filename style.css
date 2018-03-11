@@ -1,10 +1,6 @@
 @font-face {
   font-family: 'neutra';
   src: url("fonts/neutra-bold.otf") format("opentype"); }
-h2 {
-  font-family: 'neutra', sans-serif;
-  font-size: 40px; }
-
 body {
   background-color: #eaeaea;
   margin: 0px; }
@@ -12,6 +8,23 @@ body {
 header {
   width: 100%;
   border-bottom: 1px solid #999999; }
+
+.logo {
+  width: 100px;
+  height: 100px;
+  font-size: 67px;
+  background-color: #f3df49;
+  position: relative; }
+  .logo h2 {
+    font-family: 'neutra', sans-serif;
+    position: absolute;
+    left: 25%;
+    top: 41%;
+    color: #2e2e2c; }
+
+img {
+  width: 100px;
+  position: absolute; }
 
 .pink {
   height: 50px;
@@ -24,7 +37,7 @@ header {
 
 .btn {
   display: inline-block;
-  padding: 1px 10px;
+  padding: 4px 10px;
   color: #fff;
   border-radius: 10px;
   font-size: 14px;

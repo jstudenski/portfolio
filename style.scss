@@ -7,10 +7,10 @@
     format('opentype');
 }
 
-h2 {
-  font-family: 'neutra', sans-serif;
-  font-size: 40px;
-}
+
+
+
+
 
 body {
   background-color: #eaeaea;
@@ -20,6 +20,35 @@ body {
 header {
   width: 100%;
   border-bottom: 1px solid #999999;
+}
+
+
+
+$logo-size: 100px;
+
+.logo {
+  width: $logo-size;
+  height: $logo-size;
+  font-size: ($logo-size*.67);
+
+  background-color: #f3df49;
+  position: relative;
+  h2 {
+    font-family: 'neutra', sans-serif;
+    position: absolute;
+    left: 25%;
+    top: 41%;
+    color: #2e2e2c;
+  }
+}
+
+
+
+
+
+img {
+  width: 100px;
+  position: absolute;
 }
 
 .pink {
@@ -36,7 +65,7 @@ header {
 
 .btn {
   display: inline-block;
-  padding: 1px 10px;
+  padding: 4px 10px;
   color: #fff;
   border-radius: 10px;
   font-size: 14px;
