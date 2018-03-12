@@ -3,19 +3,53 @@ window.onload = function() {
 
 
 var portfolio = [{
-  "title": "Hello",
+  "title": "Pretend Friend",
   "description": {},
-  "image": {},
-  "heroku": {},
-  "github": "http://www.google.com/"
+  "image": "pretendfriend.png",
+  "heroku": "https://pretend-friend.herokuapp.com/",
+  "github": "https://github.com/jstudenski/pretendFriend"
 },
 {
-  "title": "World",
+  "title": "Next Toolbox",
   "description": {},
-  "image": {},
-  "heroku": {},
-  "github": "http://www.digg.com/"
+  "image": "nexttoolbox.png",
+  "heroku": "http://next-toolbox.herokuapp.com/",
+  "github": "https://github.com/jstudenski/NextToolbox"
+},
+{
+  "title": "PokeMart",
+  "description": {},
+  "image": "pokemart.png",
+  "github": "https://github.com/jstudenski/pokemart"
+},
+{
+  "title": "FlixMix",
+  "description": {},
+  "image": "flixmix.png",
+  "heroku": "https://jstudenski.github.io/FlixMix/",
+  "github": "https://github.com/jstudenski/FlixMix"
+},
+{
+  "title": "Train Time",
+  "description": {},
+  "image": "traintime.png",
+  "heroku": "https://jstudenski.github.io/train-time/",
+  "github": "https://github.com/jstudenski/train-time"
+},
+{
+  "title": "Taco Time",
+  "description": {},
+  "image": "taco.png",
+  "heroku": "https://taco--time.herokuapp.com/",
+  "github": "https://github.com/jstudenski/TacoTime"
 }
+
+
+
+
+
+
+
 
 
 ]
@@ -30,21 +64,38 @@ $.each(portfolio, function( index, value ) {
 
     var card = $("<div>");
     card.addClass("card");
-    //btn.attr("genre-id", genres.genres[i].id);
-    //btn.attr("genre-name", genres.genres[i].name);
-    // a.attr("src", genres.genres[i].emoji);
     card.html("<h2>"+item.title+"</h2>");
 
     var link = $("<a />", {
-        // id : "id5",
         class : "btn github",
-        // name : "link",
         href : item.github,
-        text : "Github",
+        text : "github",
         target : "_blank"
     });
 
+    var portfolioItem = $("<div>");
+    portfolioItem.addClass('portfolio-image');
+
+    var img = $("<img>");
+      img.attr('src', 'public/images/'+item.image);
+     // img.addClass('portfolio-image');
+      img.appendTo(portfolioItem);
+       portfolioItem.appendTo(card);     
+
+    if(item.heroku){
+      var live = $("<a />", {
+          class : "btn live",
+          href : item.heroku,
+          text : "live",
+          target : "_blank"
+      });
+
+      live.appendTo(card);
+    }
+
     link.appendTo(card);
+
+
 
 
    // var color = genres.genres[i].color;
