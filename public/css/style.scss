@@ -87,111 +87,39 @@ img {
   text-decoration: none;
 }
 
+
+$buttonConfig: 
+  'live' #f3df49, 
+  'github' #393939, 
+  'html' #ff5900,
+  'css' #0071b7,
+  'javascript' #73d300,
+  'node'#6cc100,
+  'firebase' #ffc900,
+  'sass' #de5a9c,
+  'mysql' #3379a5,
+  'express' #393939,
+  'handlebars'#ff7d00,
+  'sequelize'#00b1f6,
+  'mongodb'#309737,
+  'mongoose'#87110f,
+  'es6'#ffc700,
+  'react'#0fddff,
+  'jsx'#336,
+  'java'#fd001f;
+
+
+@each $itm in $buttonConfig {
+    .#{nth($itm, 1)} {
+        background-color: nth($itm, 2);
+        box-shadow: 1px 1px darken(nth($itm, 2), 15% ); 
+    }
+}
+
+
 .live {
   color: #393939;
-  background-color: #f3df49;
-  box-shadow: 1px 1px darken( #f3df49, 15% );
 }
-
-
-.github {
-  background-color: #393939;
-  box-shadow: 1px 1px darken( #393939, 15% );
-}
-
-.html {
-  background-color: #ff5900;
-  box-shadow: 1px 1px darken( #ff5900, 15% );
-}
-
-.css {
-  background-color: #0071b7;
-  box-shadow: 1px 1px darken( #0071b7, 15% );
-}
-
-.javascript {
-  background-color: #73d300;
-  box-shadow: 1px 1px darken( #73d300, 15% );
-}
-
-.node {
-  background-color: #6cc100;
-  box-shadow: 1px 1px darken( #6cc100, 15% );
-}
-
-
-.firebase {
-  background-color: #ffc900;
-  box-shadow: 1px 1px darken( #ffc900, 15% );
-}
-
-.sass {
-  background-color: #de5a9c;
-  box-shadow: 1px 1px darken( #de5a9c, 15% );
-}
-
-.mysql {
-  background-color: #3379a5;
-  box-shadow: 1px 1px darken( #3379a5, 15% );
-}
-
-.express {
-  background-color: #393939;
-  box-shadow: 1px 1px darken( #393939, 15% );
-}
-
-.handlebars {
-  background-color: #ff7d00;
-  box-shadow: 1px 1px darken( #ff7d00, 15% );
-}
-
-.sequelize {
-  background-color: #00b1f6;
-  box-shadow: 1px 1px darken( #00b1f6, 15% );
-}
-
-
-.mongodb {
-  background-color: #309737;
-  box-shadow: 1px 1px darken( #309737, 15% );
-}
-
-.mongoose {
-  background-color: #87110f;
-  box-shadow: 1px 1px darken( #87110f, 15% );
-}
-
 .es6 {
-  background-color: #ffc700;
-  box-shadow: 1px 1px darken( #ffc700, 15% );
-  color: #000;
+  color: #000000;
 }
-
-.react {
-  background-color: #0fddff;
-  box-shadow: 1px 1px darken( #0fddff, 15% );
- // color: #222;
-}
-
-.jsx {
-  background-color: #336;
-  box-shadow: 1px 1px darken( #336, 15% );
-}
-
-.java {
-  background-color: #fd001f;
-  box-shadow: 1px 1px darken( #fd001f, 15% );
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
