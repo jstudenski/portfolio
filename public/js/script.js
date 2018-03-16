@@ -42,7 +42,16 @@ var portfolio = [{
   "image": "taco.png",
   "heroku": "https://taco--time.herokuapp.com/",
   "github": "https://github.com/jstudenski/TacoTime"
+},
+{
+  "title": "Taco Time Sequelized",
+  "description": {},
+  "image": "taco.png",
+  "heroku": "https://taco-time-sequelized.herokuapp.com/",
+  "github": "https://github.com/jstudenski/TacoTimeSequelized"
 }
+
+
 
 
 
