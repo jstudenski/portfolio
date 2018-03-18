@@ -53,14 +53,6 @@ var portfolio = [{
 
 
 
-
-
-
-
-
-
-
-
 ]
 
 
@@ -105,8 +97,6 @@ $.each(portfolio, function( index, value ) {
     link.appendTo(card);
 
 
-
-
    // var color = genres.genres[i].color;
    // btn.attr("color", color);
     // btn.css('box-shadow', '1px 1px 0px'+color+',2px 2px 0px'+color+',3px 3px 0px'+color);
@@ -126,12 +116,6 @@ $.each(portfolio, function( index, value ) {
 
    // alert( index + ": " + value );
 });
-
-
-
-
-
-
 
 
 
