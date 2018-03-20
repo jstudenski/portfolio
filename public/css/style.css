@@ -136,4 +136,37 @@ img {
 .es6 {
   color: #000000; }
 
+nav {
+  position: fixed;
+  top: 1vmin;
+  left: 1vmin; }
+  nav ul {
+    list-style: none; }
+  nav li {
+    margin: 1vmin;
+    padding: 0; }
+    nav li a {
+      color: black;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 13pt;
+      transition: color 80ms ease-out; }
+    nav li.invert a {
+      color: white; }
+
+div {
+  height: 100vh; }
+  div.white {
+    background-color: white; }
+  div.blue {
+    background-color: lightblue; }
+  div.yellow {
+    background-color: yellow; }
+  div.black {
+    background-color: black; }
+  div.red {
+    background-color: darkred; }
+
 /*# sourceMappingURL=style.css.map */
