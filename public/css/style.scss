@@ -48,9 +48,8 @@ img {
   position: relative;
 }
 
-.pink {
-  // height: 50px;
-  background-color:#fff; //  #d4002f;
+.portfolio {
+  // padding-top: 100px;
 }
 
 .portfolio-image {
@@ -131,7 +130,8 @@ $buttonConfig:
 
 
 nav {
-  
+  z-index: 2;
+
   position: fixed;
   top: 1vmin;
   left: 1vmin;
@@ -168,23 +168,35 @@ nav {
 }
 
 
+// .pink {
+//   // height: 50px;
+//   background-color:#fff; //  #d4002f;
+// }
+
+.row {
+
+      margin-top: 122px;
+
+      
+}
+
 div {
   
-  height: 100vh;
+  // height: 100vh;
   
   &.white {
     background-color: white;
   }
-  &.blue {
+  &.pink {
     background-color: pink;
-  }
-  &.yellow {
-    background-color: gray;
   }
   &.black {
     background-color: black;
   }
-  &.red {
+  &.gray {
+    background-color: gray;
+  }
+  &.salmon {
     background-color: salmon;
   }
   

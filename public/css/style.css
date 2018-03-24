@@ -27,9 +27,6 @@ img {
   width: 100%;
   position: relative; }
 
-.pink {
-  background-color: #fff; }
-
 .portfolio-image {
   height: 185px;
   overflow: hidden; }
@@ -139,6 +136,7 @@ img {
   color: #000000; }
 
 nav {
+  z-index: 2;
   position: fixed;
   top: 1vmin;
   left: 1vmin; }
@@ -158,17 +156,18 @@ nav {
     nav li.invert a {
       color: white; }
 
-div {
-  height: 100vh; }
-  div.white {
-    background-color: white; }
-  div.blue {
-    background-color: pink; }
-  div.yellow {
-    background-color: gray; }
-  div.black {
-    background-color: black; }
-  div.red {
-    background-color: salmon; }
+.row {
+  margin-top: 122px; }
+
+div.white {
+  background-color: white; }
+div.pink {
+  background-color: pink; }
+div.black {
+  background-color: black; }
+div.gray {
+  background-color: gray; }
+div.salmon {
+  background-color: salmon; }
 
 /*# sourceMappingURL=style.css.map */
