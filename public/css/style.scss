@@ -26,7 +26,13 @@ $logo-size: 100px;
   font-size: ($logo-size*.67);
 
   background-color: #f3df49;
-  position: relative;
+  // position: relative;
+
+    position: fixed;
+    left: 10px;
+    top: 10px;
+
+
   h2 {
     font-family: 'neutra', sans-serif;
     position: absolute;
@@ -35,7 +41,6 @@ $logo-size: 100px;
     color: #2e2e2c;
   }
 }
-
 
 
 img {
@@ -154,6 +159,8 @@ nav {
       a {
         color: white;
       }
+
+
     }
     
   }
